@@ -1,0 +1,106 @@
+Good Morning and Welcome!
+The session will start in 10mins time.
+
+Linux Day1 class-21/12/22-Topic coverd- Basics 
+
+    2  mkdir folder1
+    3  ls
+    4  mkdir folder2
+    5  ls
+    6  mkdir f1 f2 f3
+    7  ls
+    8  mkdir f4,f5,f6
+    9  ls
+   10  cd folder1
+   11  mkdir fa
+   12  ls
+   13  cd fa
+   14  mkdir fb
+   15  ls
+   16  cd fb
+   17  clear
+   18  cd ..
+   19  cd fa
+   20  cd fb
+   21  clear
+   22  cd ../../
+   23  cd fa
+   24  cd fb
+   25  clear
+   26  cd
+   27  cd folder1/fa/fb/
+   28  clear
+   29  cd -
+   30  pwd
+   31  clear
+   32  pwd
+   33  cd /home
+   34  ls
+   35  cd ubuntu
+   36  ls
+   37  cd folder1/fa/fb/
+   38  clear
+   39  cd /folder1
+   40  clear
+   41  cd
+   42  clear
+   43  ls
+ 54  mkdir -p folder10/folder11
+
+
+  touch command to create a file --> empty file
+  echo command to create a file --> single line text file
+  nano & vi command to create a file --> create a file with multiple lines
+                                         present inside of it.
+   61  touch file1
+   62  ls
+   63  cat file1
+   64  echo "this is line1" > file2
+   65  ls
+   66  cat file2
+   67  echo "this is line2" >> file2
+   68  cat file2
+   69  echo "overwrite the file" > file2
+   70  cat file2
+
+nano commnad:
+
+write nano <filename>
+
+to save a nano file press control+S on keybord
+to exit a nano file press control+X on the keybord
+
+
+
+vi commnad:
+
+write vi <filename>
+
+to save a vi file press Press ESC key-> then : -> w ->hit enter  on keybord
+to exit a vi file press q after writing w  on the keybord.. :wq
+
+to start writing content in vi editor press i on the keybord to get inside insert mode.
+
+:wq! for focefully saving and quiting.
+
+
+
+cd - : takes you back to last exited folder.
+
+
+   75  nano file3
+   76  cat file3
+   77  nano file4
+   78  cat file4
+   79  clear
+   80  ls
+   81  vi file5
+   82  ls
+   83  cat file5
+   84  clean
+   85  clear
+   86  man vi
+   87  man mkdir
+
+
+   
